@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <com.drolegames.jespercv.custom.layouts.RelativeLayoutNavigationDrawerTop
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/januari3"
+        app:aspectRatio="0.5625"
+        android:padding="@dimen/material_navigationdrawer_horizontal_1"
+        android:id="@+id/relativeLayout">
+
+
+        <com.drolegames.jespercv.custom.views.RoundImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginRight="@dimen/material_navigationdrawer_horizontal_1"
+            android:layout_marginBottom="@dimen/material_navigationdrawer_horizontal_1"
+            android:src="@drawable/jag"
+
+            android:id="@+id/view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/primary_text_default_material_light"
+            android:text="@string/my_name"
+            android:id="@+id/text_my_name"
+            android:gravity="left"
+            android:layout_above="@+id/text_gmail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/secondary_text_default_material_light"
+            android:text="@string/my_email"
+            android:id="@+id/text_gmail"
+            android:gravity="left"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </com.drolegames.jespercv.custom.layouts.RelativeLayoutNavigationDrawerTop>
+
+    <include
+        layout="@layout/navigation_drawer_email_and_linkedin"
+        android:layout_marginLeft="@dimen/material_navigationdrawer_horizontal_1"
+        android:layout_marginRight="@dimen/material_navigationdrawer_horizontal_1"
+        android:layout_marginTop="@dimen/material_navigationdrawer_vertical_3"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        android:id="@+id/include" />
+
+
+
+</RelativeLayout>

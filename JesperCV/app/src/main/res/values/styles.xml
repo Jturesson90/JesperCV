@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/indigo_500</item>
+        <item name="colorAccent">@color/orange_500</item>
+        <item name="colorPrimaryDark">@color/indigo_700</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="MyCustomToolbar">
+        <item name="colorPrimary">@color/indigo_500</item>
+        <item name="android:background">@color/indigo_500</item>
+
+    </style>
+
+</resources>

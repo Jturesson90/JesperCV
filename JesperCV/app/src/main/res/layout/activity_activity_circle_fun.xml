@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.drolegames.jespercv.activities.ActivityCircleFun">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/appbar"></include>
+
+    <TextView android:text="@string/circle_fun_welcome_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/material_navigationdrawer_horizontal_1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/primary_dark_text"/>
+
+    <com.drolegames.jespercv.custom.views.ExpandingCircleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_bar" />
+</RelativeLayout>

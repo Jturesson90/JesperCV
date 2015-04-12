@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="applications">Applikationer</string>
+    <string name="circle_fun">Custom View</string>
+    <string name="about_me">Om mig</string>
+
+    <string name="email_contact_me">Kontakta Jesper&#8230;</string>
+    <string name="email_hello_jesper">Hej Jesper! Skickat från din app.</string>
+    <string name="email_error">Det finns ingen email klient installerad.</string>
+    <string name="linkedin_error">Kunde inte öppna LinkedIn.</string>
+
+
+
+    <string name="cover_letter">PERSONLIGT BREV</string>
+    <string name="title_activity_activity_circle_fun">Roligt med cirklar</string>
+    <string name="circle_fun_welcome_text">Tryck och dra för att skapa cirklar</string>
+</resources>

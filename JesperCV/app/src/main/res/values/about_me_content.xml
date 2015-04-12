@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cover_letter_content_1">
+        I’m writing to apply for your App developer role because I have come to love the app developing and I am now looking to be part of a team and together develop some awesome games. Game development is my passion, both in my studies, internships and spare time and I have developed games and mobile apps with Unity, LibGDX, Platino, Android Studio, Eclipse, Xcode, Titanium for the last 3 years.
+\n\n
+Last year I was a part of an internship program at usTwo working as a Xcode/Android developer but alongside I also developed games in Unity.
+\n\n
+I have a Bachelor Degree in Computer Science since earlier but I decided to focus more on mobile game development and moved to Malmö to pursue a specialist degree in this field. I graduated in december 2014 from Malmö Yrkeshögskola after studying Mobilgameprogramming.
+\n\n
+
+    </string>
+    <string name="cover_letter_content_2">
+        From my internship at usTwo I learned how to develop a product as a team, work agile with short iterations, know every teammembers roles need in the development. It was a great experience but it ended the 14th of December hence why I am looking for my next step to further progress my career and keep learning within the vast field of programming.
+\n\n
+I am confident that I am great fit for your role and I would hope to get a chance to introduce me in person to learn more about you and how I could be an asset for you and the company.
+\n\n\n
+Thank you and I will be looking forward to hear from you.
+\n
+Jesper
+    </string>
+
+</resources>

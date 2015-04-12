@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.andexert.library.RippleView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ripple:rv_color="@color/orange_500"
+    ripple:rv_type="rectangle">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Large Text"
+            android:gravity="center"
+            android:textColor="@color/tabselector"
+            android:textSize="14sp"
+            android:id="@+id/custom_tab_textview"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+</com.andexert.library.RippleView>

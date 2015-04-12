@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Jesper Turesson</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_closed">drawer_closed</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_name">Jesper Turesson</string>
+    <string name="my_email">Jturesson90@gmail.com</string>
+    <string name="my_linkedin">http://se.linkedin.com/pub/jesper-turesson/80/23a/951/</string>
+    <string name="applications">Applications</string>
+    <string name="about_me">About Me</string>
+    <string name="circle_fun">Custom View</string>
+    <string name="email_contact_me">Contact Jesper&#8230;</string>
+    <string name="email_hello_jesper">Hello Jesper! Sending from your app.</string>
+    <string name="email_error">There are no email clients installed.</string>
+    <string name="linkedin_error">Could not open LinkedIn</string>
+
+    <string name="cv">CV</string>
+    <string name="cover_letter">COVER LETTER</string>
+
+
+    <string-array name="publication_titles">
+        <item name="applications">@string/applications</item>
+        <item name="circle_fun">@string/circle_fun</item>
+
+    </string-array>
+
+<!--<item name="about_me">@string/about_me</item> -->
+
+    <string-array name="tabs">
+        <item>@string/cv</item>
+        <item>@string/cover_letter</item>
+    </string-array>
+
+    <string name="lorum_ipsum"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices interdum tortor, non ultrices velit ultrices vehicula. Etiam pharetra ut augue a euismod. Sed in dolor nec lacus ullamcorper maximus. Nam placerat mollis ante, nec condimentum est lobortis in. Quisque et nisi est. Suspendisse potenti. Integer id velit volutpat ligula fermentum fermentum a consectetur tortor. Phasellus quis orci tincidunt, hendrerit tellus eu, tincidunt leo. Vivamus malesuada odio in ante fermentum auctor vitae ac erat.
+
+Aliquam consequat, ipsum nec consequat faucibus, mi velit auctor eros, sed vulputate augue sapien sit amet est. Cras dapibus velit tortor, non dignissim mauris feugiat eu. Ut at neque lorem. Pellentesque a consectetur lacus. Pellentesque hendrerit urna ac tincidunt sagittis. Integer porttitor pharetra fringilla. Nunc nisi justo, aliquet eget lacinia at, eleifend vitae ante. Morbi dignissim sodales sagittis. Phasellus suscipit risus sit amet nunc posuere, ac fermentum eros vulputate. Vestibulum vel nibh non dui tristique ornare id nec libero. Donec suscipit odio et metus scelerisque, et volutpat sapien mattis. Cras a metus consequat, tincidunt arcu et, rhoncus felis. Mauris justo ligula, facilisis non tincidunt sit amet, cursus a ante. Suspendisse interdum aliquet nunc.
+
+Cras pretium tellus eu urna euismod maximus. Fusce nulla purus, ultricies nec accumsan sit amet, semper ac sapien. Nulla urna ex, viverra nec vulputate sed, auctor vitae est. Nullam hendrerit mattis ipsum, id tristique ipsum iaculis non. Pellentesque iaculis est lacus, a commodo elit gravida vel. Etiam tincidunt nulla quis hendrerit cursus. Proin id feugiat elit. Donec maximus efficitur risus eu fermentum. Phasellus condimentum velit facilisis metus vulputate, ut feugiat sem condimentum. Morbi dolor est, viverra a velit vitae, aliquet volutpat felis.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum viverra imperdiet nunc, rutrum pharetra metus dapibus vitae. Aliquam in vehicula orci. Ut eget sapien malesuada, vestibulum dui vitae, consequat arcu. Nullam sed dolor sit amet libero finibus sodales sed vitae enim. Nam arcu lorem, malesuada vitae nibh quis, blandit volutpat sapien. Morbi sed magna leo. Maecenas ultrices semper augue a dapibus. Ut vitae ex cursus lacus rutrum sagittis. Quisque venenatis tristique fermentum. Maecenas dapibus orci vitae faucibus laoreet. Ut tempor tempus ante, nec sodales est rhoncus nec.
+
+Vestibulum elementum ullamcorper ex, ultrices ultricies nisi. Curabitur tempus mauris sit amet lacus egestas faucibus. Aliquam augue arcu, elementum ac rutrum in, pretium a felis. Curabitur fermentum tincidunt ipsum, in dignissim metus lacinia a. Ut viverra ligula sed est ornare, tristique feugiat dui elementum. Sed rhoncus mollis mi, at convallis felis posuere at. Donec eu suscipit felis. Aenean diam ex, lacinia a nunc vel, tristique accumsan orci. Sed vitae volutpat eros. Vestibulum at odio vestibulum, aliquam risus a, molestie ligula. Maecenas scelerisque lorem magna, at convallis erat fermentum vel. Donec pulvinar pharetra lorem, gravida semper dolor mollis eget. Vivamus ultricies vel nulla vel suscipit. Suspendisse iaculis posuere accumsan.</string>
+
+
+    <!-- CV and Cover Letter-->
+
+    <string name="my_cv_">
+<![CDATA[
+    <b>Autor:</b> Mr Nice Guy<br/>
+    <b>Contact:</b> myemail@grail.com<br/>
+    <i>Copyright © 2011-2012 Intergalactic Spacebar Confederation </i>
+  ]]>
+</string>
+
+    <string-array name="cv_headers">
+        <item>Arbetslivserfarenhet</item>
+        <item>Utbildning</item>
+        <item>Kompetens</item>
+        <item>Övriga meriter </item>
+        <item>Intressen</item>
+        <item>Yaaay</item>
+    </string-array>
+    <string name="title_activity_activity_circle_fun">Circle Fun</string>
+    <string name="circle_fun_welcome_text">Press and drag to make circles</string>
+</resources>

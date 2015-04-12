@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release_config {
+            keyAlias 'JesperTuressonCV'
+            storeFile file('C:/AndroidKeys/jesper_turesson_cv_key.jks')
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "com.drolegames.jespercv"
+        minSdkVersion 10
+        targetSdkVersion 21
+        versionCode 3
+        versionName '1.2'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release_config
+        }
+    }
+    productFlavors {
+    }
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.github.traex.rippleeffect:library:1.2.3'
+    compile 'com.android.support:recyclerview-v7:21.0.+'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.github.nirhart:parallaxscroll:1.0'
+}

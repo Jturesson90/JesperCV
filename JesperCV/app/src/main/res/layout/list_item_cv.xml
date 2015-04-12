@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:textColor="@color/primary_dark_text"
+        android:text="Large Text"
+        android:textSize="24sp"
+        android:gravity="center_vertical"
+        android:layout_gravity="left"
+        android:id="@+id/cv_row_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:textColor="@color/primary_dark_text"
+        android:text="@string/my_cv_"
+        android:id="@+id/textViewdd"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

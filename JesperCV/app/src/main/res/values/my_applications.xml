@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+MY APPS
+-->
+    <string-array name="app_packagenames">
+        <item>com.drolegamesj.littlerockstar</item>
+        <item>com.drolegames.run.left</item>
+        <item>com.drole.gamesPro</item>
+        <item>com.droleGames.reverso</item>
+        <item>com.veqtronix.android</item>
+    </string-array>
+    <string-array name="app_image_resources">
+        <item>@drawable/little_rockstar</item>
+        <item>@drawable/runleft1024_500</item>
+        <item>@drawable/drole1024x500</item>
+        <item>@drawable/reverso</item>
+        <item>@drawable/syncroid</item>
+
+
+    </string-array>
+</resources>
